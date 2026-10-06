@@ -7,6 +7,17 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 
 const skillRoot = path.join(ROOT, "skills", "stack");
 
+test("stack artifact supports conventional output and preserves alternate repository paths", async () => {
+  const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
+  assert.match(skill, /docs\/project\/05-STACK\.md/);
+  assert.match(skill, /Otherwise use the repository's existing decision-document location/);
+});
+
+test("stack selection preserves architecture and repository environment ownership", async () => {
+  const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
+  assert.match(skill, /Keep stack selection distinct from architecture, repository environment/i);
+});
+
 test("stack flow discovers requirements and constraints before deciding", async () => {
   const skill = await readFile(path.join(skillRoot, "SKILL.md"), "utf8");
   const discover = skill.indexOf("## Discover");
