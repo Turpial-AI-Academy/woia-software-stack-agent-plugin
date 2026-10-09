@@ -5,7 +5,7 @@ license: MIT
 compatibility: Works with greenfield and existing software products across languages, platforms, and deployment models; fresh compatibility claims depend on authoritative upstream evidence or target-environment validation.
 metadata:
   author: Turpial AI Academy
-  version: "0.5.1"
+  version: "0.5.6"
 ---
 
 # stack

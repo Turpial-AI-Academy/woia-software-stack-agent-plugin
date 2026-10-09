@@ -1,25 +1,8 @@
 {
   "schema": "dev.woia.provider-manifest/v1",
-  "version": "0.5.1",
+  "version": "0.5.6",
   "authoring_profile": "thin",
   "department": "software",
   "capability": "stack",
-  "skill": "stack",
-  "source_lineage": {
-    "repository": "Turpial-AI-Academy/stack-agent-plugin",
-    "version": "1.0.1",
-    "commit": "f23275c05481930deef9704ee3e1df71b54e84ad"
-  },
-  "migrated_portable_paths": [
-    "skills/stack/SKILL.md",
-    "skills/stack/assets/README.md",
-    "skills/stack/assets/compatibility-matrix.template.md",
-    "skills/stack/assets/stack-report.template.md",
-    "skills/stack/references/DECISION_MATRIX.md",
-    "skills/stack/references/DISCOVERY_MODEL.md",
-    "skills/stack/references/README.md",
-    "skills/stack/references/STACK_SELECTION_STANDARD.md",
-    "skills/stack/references/VALIDATION_CHECKLIST.md",
-    "skills/stack/references/VERSION_AND_COMPATIBILITY.md"
-  ]
+  "skill": "stack"
 }

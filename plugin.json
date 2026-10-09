@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "woia-software-stack",
-  "version": "0.5.1",
+  "version": "0.5.6",
   "description": "Evidence-driven technology stack selection with explicit version, constraint, and compatibility rationale.",
   "author": {
     "name": "Turpial AI Academy",
